@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import random
 
 def generate_heuristic_grid(rows, cols, peak=(5, 5), scale=5):
-    """Generate a grid where each cell has a heuristic value."""
     x = np.arange(rows)
     y = np.arange(cols)
     X, Y = np.meshgrid(x, y)
