@@ -1,0 +1,37 @@
+2025-02-11 10:38:48,010 - ERROR - Critical error: Missing required API keys in .env file
+2025-02-11 10:39:35,634 - ERROR - Critical error: Missing required API keys in .env file
+2025-02-11 10:43:28,758 - ERROR - Critical error: Missing required API keys in .env file
+2025-02-11 10:46:32,049 - ERROR - Critical error: Missing required API keys in .env file
+2025-02-11 10:46:39,530 - ERROR - Critical error: Traceback (most recent call last):
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 186, in <module>
+    app = RecipeGUI()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 121, in __init__
+    self.agent = RecipeAgent()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 25, in __init__
+    self.setup_apis()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 37, in setup_apis
+    raise ValueError("Missing required API keys in .env file")
+ValueError: Missing required API keys in .env file
+
+2025-02-11 10:46:46,973 - ERROR - Critical error: Traceback (most recent call last):
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 186, in <module>
+    app = RecipeGUI()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 121, in __init__
+    self.agent = RecipeAgent()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 25, in __init__
+    self.setup_apis()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 37, in setup_apis
+    raise ValueError("Missing required API keys in .env file")
+ValueError: Missing required API keys in .env file
+
+2025-02-11 10:49:48,734 - ERROR - Critical error: Traceback (most recent call last):
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 186, in <module>
+    app = RecipeGUI()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 121, in __init__
+    self.agent = RecipeAgent()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 25, in __init__
+    self.setup_apis()
+  File "c:\Users\KIIT\Desktop\AI_Lab\Lab5\Recipeai.py", line 37, in setup_apis
+    raise ValueError("Missing required API keys in .env file")
+ValueError: Missing required API keys in .env file
+
