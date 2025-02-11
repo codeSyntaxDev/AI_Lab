@@ -1,5 +1,3 @@
-# Map Coloring Problem using Backtracking
-
 # Function to check if coloring is safe
 def is_safe(node, color, colors, graph):
     for neighbor in graph[node]:
@@ -31,13 +29,23 @@ def solve_map_coloring(graph, num_colors):
 
     return colors
 
+num_nodes = int(input("Enter the number of nodes (regions): "))
+
+graph = {}
+print("Enter the adjacency list (space-separated neighbors, one line per node):")
+for i in range(num_nodes):
+    neighbors = list(map(int, input(f"Node {i} neighbors: ").split()))
+    graph[i] = neighbors
+
+num_colors = int(input("Enter the number of colors available: "))
+
 # Example Graph (Adjacency List Representation)
-graph = {
-    0: [1, 2, 3],
-    1: [0, 2],
-    2: [0, 1, 3],
-    3: [0, 2]
-}
+# graph = {
+#     0: [1, 2, 3],
+#     1: [0, 2],
+#     2: [0, 1, 3],
+#     3: [0, 2]
+# }
 
 num_colors = 3  # Number of colors available
 
